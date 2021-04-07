@@ -4864,7 +4864,7 @@ public class ParseAlgorithm
    //parse the node with keyword 'process' or 'node' and place it inside an object of type AST.Node
    public static AST.Node GetNode() throws ParseAlgorithmException {
 		AST.Node result = new AST.Node();
-		
+		// this is a new comment.
 		if(PeekAtAlgToken(1).equals("process")) {
 			PcalDebug.reportInfo("AST.NODE process keyword found. ");
 			GobbleThis("process");
